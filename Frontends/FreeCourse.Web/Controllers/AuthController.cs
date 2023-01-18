@@ -13,6 +13,7 @@ namespace FreeCourse.Web.Controllers
     {
         private readonly IIdentityService _identityService;
 
+        //Identy Service function for test
         public AuthController(IIdentityService identityService)
         {
             _identityService = identityService;
